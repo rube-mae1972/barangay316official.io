@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="sub-header">
+     <nav>
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      
+      <h1>Contact Us</h1>
+
+</section>
+    
+<!-- contact us -->
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.8369672414688!2d120.98069424987965!3d14.608361480754036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca00db6c9fad%3A0x89e740c939530ed7!2sBarangay%20316%20Barangay%20Hall!5e0!3m2!1sen!2sph!4v1659590865632!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+    
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+              <div>
+              <i class="fa fa-map-marker"></i>
+              <span>
+                <h5>1222 Maria Natividad Street</h5>
+                <p>Santa Cruz, Manila, PH 1014</p>
+              </span>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                  <h5>8-7066805/09175756510/09560867909</h5>
+                  <p>Monday to Saturday, 9:00 AM to 5:00 PM</p>
+                </span>
+                </div>
+
+
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                      <h5>brgy316zone32@gmail.com</h5>
+                      <p>Feel free to send us a message</p>
+                    </span>
+                    </div>
+            </div>
+                
+
+        <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+</section>
+    
+
+
+
+
+<!---- Footer --->
+
+<section class="footer">
+    
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-tumblr"></i>
+    </div>
+    
+    <p><i class="fa fa-copyright"></i>2022 All Rights Reserved. TANSCREW </p>
+
+</section>
+    
+
+
+
+
+    
+
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+   }
+
+   function hideMenu(){
+        navLinks.style.right ="-200px";
+   }
+</script>
+
+
+
+    
+
+
+
+</body>
+</html>
